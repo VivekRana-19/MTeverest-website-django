@@ -1,0 +1,38 @@
+.col-md-3 {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.imageContainer {
+    
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-3 img {
+    display: inline-block;
+    height: 200px;
+    width: auto;
+}
+
+.card-body {
+    min-height: 1px;
+}
+
+body .carousel-indicators li {
+    background-color: blue;
+}
+
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon {
+    background-color: blue;
+}
+
+.carousel-indicators .active {
+    background-color: chartreuse;
+}
+
+body .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
